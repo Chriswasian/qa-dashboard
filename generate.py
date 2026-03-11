@@ -48,7 +48,7 @@ td {{ padding: 10px; border-bottom: 1px solid #2d1b69; }}
 </style>
 </head>
 <body>
-<h1>🧪 QA Results Dashboard</h1>
+<h1>Wilsons QA Results Dashboard</h1>
 <div class="stats">
 <div class="card"><div class="num">{total}</div>Total</div>
 <div class="card"><div class="num" style="color:#6ee7b7">{passed}</div>Passed</div>
