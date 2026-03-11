@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>QA Dashboard</title>
+<style>
+body { font-family: sans-serif; background: #0f1932; color: white; padding: 30px; }
+h1 { color: #c084fc; }
+.stats { display: flex; gap: 20px; margin: 20px 0; }
+.card { background: #1e2d50; padding: 20px; border-radius: 12px; min-width: 120px; text-align: center; }
+.num { font-size: 2em; font-weight: bold; color: #6ee7b7; }
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th { background: #2d1b69; padding: 10px; text-align: left; }
+td { padding: 10px; border-bottom: 1px solid #2d1b69; }
+</style>
+</head>
+<body>
+<h1>🧪 QA Results Dashboard</h1>
+<div class="stats">
+<div class="card"><div class="num">4</div>Total</div>
+<div class="card"><div class="num" style="color:#6ee7b7">4</div>Passed</div>
+<div class="card"><div class="num" style="color:#f87171">0</div>Failed</div>
+<div class="card"><div class="num" style="color:#fde68a">100.0%</div>Pass Rate</div>
+</div>
+<table>
+<tr><th>Test</th><th>Result</th><th>Duration</th><th>Timestamp</th></tr>
+
+<tr>
+<td>test_add</td>
+<td style="color:#6ee7b7;font-weight:bold">PASSED</td>
+<td>0.0001s</td>
+<td>2026-03-06 23:25:14</td>
+</tr>
+<tr>
+<td>test_subtract</td>
+<td style="color:#6ee7b7;font-weight:bold">PASSED</td>
+<td>0.0000s</td>
+<td>2026-03-06 23:25:14</td>
+</tr>
+<tr>
+<td>test_multiply</td>
+<td style="color:#6ee7b7;font-weight:bold">PASSED</td>
+<td>0.0000s</td>
+<td>2026-03-06 23:25:14</td>
+</tr>
+<tr>
+<td>test_divide</td>
+<td style="color:#6ee7b7;font-weight:bold">PASSED</td>
+<td>0.0000s</td>
+<td>2026-03-06 23:25:14</td>
+</tr>
+</table>
+</body>
+</html>

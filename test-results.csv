@@ -1,0 +1,5 @@
+test,result,duration,timestamp
+test_add,PASSED,0.0001s,2026-03-06 23:25:14
+test_subtract,PASSED,0.0000s,2026-03-06 23:25:14
+test_multiply,PASSED,0.0000s,2026-03-06 23:25:14
+test_divide,PASSED,0.0000s,2026-03-06 23:25:14
